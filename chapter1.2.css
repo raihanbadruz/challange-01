@@ -49,6 +49,11 @@ a {
   position: absolute;
 }
 
+/* Slider */
+.carousel-inner {
+  padding: 5%;
+}
+
 /* OUR SERVICE */
 
 .col-right-main {
@@ -139,4 +144,27 @@ a {
   margin: 1% 0% 5% 0%;
   padding-bottom: 1rem;
   cursor: pointer;
+}
+
+/* Footer Section */
+
+.section-footer {
+  margin: 3% 1% 2% 10%;
+}
+
+.col-first {
+  font-weight: 300;
+  margin: 0% 2% 0% 0%;
+}
+
+.col-second {
+  font-weight: 400;
+}
+
+.col-third {
+  font-weight: 300;
+}
+
+.col-fourth {
+  font-weight: 300;
 }
