@@ -34,13 +34,11 @@
       <div class="header">
         <nav>
           <img src="image/logo.png" class="logo" />
-
           <ul>
-            <li><a href="">Our services</a></li>
-            <li><a href="">Why Us</a></li>
-            <li><a href="">Testimonial</a></li>
-            <li><a href="">FAQ</a></li>
-            <li>
+            <li><a href="#our-service">Our services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#faq">FAQ</a></li>
               <a>
                 <button class="btn btn-success" type="submit">
                   Register
@@ -57,26 +55,30 @@
           </div>
         </nav>
 
-        <div class="row">
-          <div class="col-6">
-            <div class="col-kiri">
-              <h3 class="header-h3">
-                Sewa & Rental Mobil Terbaik di kawasan Kaliwates
-              </h3>
-              <p>
-                Selamat datang di Binar Car Rental. Kami menyediakan mobil
-                kualitas terbaik dengan harga terjangkau. Selalu siap melayani
-                kebutuhanmu untuk sewa mobil selama 24 jam.
-              </p>
-              <button class="btn btn-hdr btn-success" type="submit">
-                Mulai Sewa Mobil
-              </button>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="col-kiri">
+                <h3 class="header-h3">
+                  Sewa & Rental Mobil Terbaik di kawasan Kaliwates
+                </h3>
+                <p>
+                  Selamat datang di Binar Car Rental. Kami menyediakan mobil
+                  kualitas terbaik dengan harga terjangkau. Selalu siap melayani
+                  kebutuhanmu untuk sewa mobil selama 24 jam.
+                </p>
+                <button class="btn btn-hdr btn-success" type="submit">
+                  Mulai Sewa Mobil
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="blue-bg"></div>
-            <div class="car-image">
-              <img src="image/Mercedes Car EQC 300kW Edition - 900x598 1.png" />
+            <div class="col-sm-6 mb-5">
+              <div class="blue-bg">
+                <img
+                  src="image/Mercedes Car EQC 300kW Edition - 900x598 1.png"
+                  class="car-image"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -138,14 +140,14 @@
       </div>
 
       <!-- Our Service section-->
-      <div class="container-main-to-call">
+      <div class="container-main-to-call" id="our-service">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-6">
             <div class="women-img">
               <img src="image/img_service.png" />
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-6">
             <div class="col-right-main">
               <h4 class="h4-main">
                 Best Car Rental for any kind of trip in Jember!
@@ -184,9 +186,13 @@
       </div>
 
       <!-- Why Us Section -->
-      <div class="why-us">
-        <h4 class="h4-why-us">Why Us?</h4>
-        <p>Mengapa harus pilih Binar Car Rental?</p>
+      <div class="why-us" id="why-us">
+        <div class="title">
+          <h4>Why Us?</h4>
+        </div>
+        <div class="text">
+          <p>Mengapa harus pilih Binar Car Rental?</p>
+        </div>
         <div class="row">
           <div class="col-md col-why-us ms-2 me-4 border">
             <div class="icon-why-us">
@@ -241,10 +247,10 @@
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
+              <div class="col-lg-3 col-sm-12 align-self-center">
                 <img class="author-img" src="image/img_photo.png" alt="" />
               </div>
-              <div class="col-9 review">
+              <div class="col-lg-9 col-sm-12 review">
                 <img class="rate-img" src="image/Rate.png" alt="" />
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -259,10 +265,10 @@
 
           <div class="item">
             <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
+              <div class="col-lg-3 col-sm-12 align-self-center">
                 <img class="author-img" src="image/img_photo.png" alt="" />
               </div>
-              <div class="col-9 review">
+              <div class="col-lg-9 col-sm-12 review">
                 <img class="rate-img" src="image/Rate.png" alt="" />
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -277,10 +283,10 @@
 
           <div class="item">
             <div class="card-testimonial row">
-              <div class="col-3 align-self-center">
+              <div class="col-lg-3 col-sm-12 align-self-center">
                 <img class="author-img" src="image/img_photo.png" alt="" />
               </div>
-              <div class="col-9 review">
+              <div class="col-lg-9 col-sm-12 review">
                 <img class="rate-img" src="image/Rate.png" alt="" />
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -315,15 +321,15 @@
       <!-- Frequently Ask Question Section -->
       <section id="faq">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6">
             <div class="faq-title">
               <h3 style="font-weight: bold">Frequently Asked Question</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
-          <div class="col-8 col-dropdown">
+          <div class="col-sm-12 col-dropdown">
             <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item mt-1 mb-3 border">
+              <div class="accordion-item mt-1 mb-3 mx-2 border">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button
                     class="accordion-button collapsed"
@@ -350,7 +356,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item mt-1 mb-3 border">
+              <div class="accordion-item mt-1 mb-3 mx-2 border">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button
                     class="accordion-button collapsed"
@@ -377,7 +383,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item mt-1 mb-3 border">
+              <div class="accordion-item mt-1 mb-3 mx-2 border">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button
                     class="accordion-button collapsed"
@@ -405,7 +411,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item mt-1 mb-3 border">
+              <div class="accordion-item mt-1 mb-3 mx-2 border">
                 <h2 class="accordion-header" id="flush-headingFour">
                   <button
                     class="accordion-button collapsed"
@@ -432,7 +438,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item mt-1 mb-3 border">
+              <div class="accordion-item mt-1 mb-3 mx-2 border">
                 <h2 class="accordion-header" id="flush-headingFive">
                   <button
                     class="accordion-button collapsed"
@@ -467,18 +473,18 @@
       <!-- Footer Section -->
       <section id="footer" class="section-footer">
         <div class="row">
-          <div class="col col-first">
+          <div class="col-sm-2 col-first">
             <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
           </div>
-          <div class="col-2 col-second">
-            <p>Our services</p>
-            <p>Why Us</p>
-            <p>Testimonial</p>
-            <p>FAQ</p>
+          <div class="col-sm col-second">
+            <p><a href="#our-service">Our services</a></p>
+            <p><a href="#why-us">Why Us</a></p>
+            <p><a href="#testimonial">Testimonial</a></p>
+            <p><a href="#faq">FAQ</a></p>
           </div>
-          <div class="col col-third">
+          <div class="col-sm-2 col-third">
             <p>Connect with us</p>
             <img src="image/icon_facebook.png" />
             <img src="image/icon_instagram.png" />
@@ -486,7 +492,7 @@
             <img src="image/icon_mail.png" />
             <img src="image/icon_twitch.png" />
           </div>
-          <div class="col col-fourth">
+          <div class="col-sm-2 col-fourth">
             <p>Copyright Binar 2022</p>
             <img src="image/logo.png" />
           </div>
